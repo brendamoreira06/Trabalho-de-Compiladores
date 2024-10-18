@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><gals_file><options_list><option><name>scanner.gen</name><value>true</value></option><option><name>parser.gen</name><value>false</value></option><option><name>scanner.sensitive</name><value>true</value></option><option><name>scanner.name</name><value>Lexico</value></option><option><name>parser.name</name><value>Sintatico</value></option><option><name>semantic.name</name><value>Semantico</value></option><option><name>package</name><value/></option><option><name>language</name><value>java</value></option><option><name>language</name><value>java</value></option><option><name>parser</name><value>SLR</value></option><option><name>table.scanner</name><value>full</value></option></options_list><data><definitions/><tokens>Id: [a-z][a-z A-Z 0-9]*&#13;
+num: [0-9]&#13;
+numReal: [0-9]+"."[0-9]+&#13;
+cad: '"' [a-z A-Z 0-9]* '"'&#13;
+cond: "seFaz"|"seNao"&#13;
+rep: "repeteAte"|"percorreTudo"&#13;
+atr: "="&#13;
+opar: "/" | "%" | "*" | "+" | "-"&#13;
+oprl: "==" | "!=" | "&lt;" | "&lt;="| "&gt;" |"&gt;="&#13;
+ler: "leiaIsso"&#13;
+escrever: "escrevaIsso"&#13;
+oplog: "e"|"ou"|"não"&#13;
+ap: \(&#13;
+fp: \)&#13;
+ac: \{&#13;
+fc: \}&#13;
+dlop: ;&#13;
+: [\s\t\n\r]&#13;
+</tokens><non_terminals/><grammar/></data></gals_file>
